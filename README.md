@@ -45,3 +45,31 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+# MongoDB Week 1 Assignment
+
+## Student Name
+John Munyi
+
+## Setup Instructions
+
+1. **MongoDB Setup:**
+   - Installed MongoDB locally on Windows.
+   - Added MongoDB bin folder to PATH environment variable.
+
+2. **Populating the Database:**
+   - Run the following command in terminal to insert sample data:
+     ```
+     mongosh < insert_books.js
+     ```
+
+3. **Running Queries:**
+   - Queries are saved in `queries.js` file.
+   - Use `mongosh` to run them or execute them inside MongoDB Compass.
+
+## Screenshots
+-saved as .png
+
+---
+
+## Notes
+- MongoDB server must be running (`mongod`) before inserting data or running queries.
